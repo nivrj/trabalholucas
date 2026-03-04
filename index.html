@@ -1,62 +1,73 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Interclasses 2026</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Interclasses</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<header class="topbar">
-  <div class="container nav">
+<header>
     <div class="logo">INTERCLASSES</div>
     <nav>
-      <a href="#">Notícias</a>
-      <a href="#">Times</a>
-      <a href="#">Tabela</a>
-      <a href="#">Jogos</a>
+        <a href="#">Início</a>
+        <a href="#">Times</a>
+        <a href="#">Tabela</a>
+        <a href="#">Jogos</a>
     </nav>
-  </div>
 </header>
 
-<main class="container">
+<section class="noticias-destaque">
+    <h1>Últimas Notícias</h1>
+    <p>A rodada decisiva trouxe jogos emocionantes e muita disputa pela liderança.</p>
+    <a href="noticias.html" class="btn">Ver mais</a>
+</section>
 
-  <section class="hero">
-    <div class="hero-text">
-      <h1>Últimas Notícias</h1>
-      <p>
-        A rodada decisiva trouxe jogos emocionantes e muita disputa pela liderança.
-      </p>
-      <button onclick="mostrarMensagem()">Ver mais</button>
-    </div>
-  </section>
-
-  <section class="tabela-section">
+<section class="tabela">
     <h2>Tabela do Campeonato</h2>
-
-    <table id="tabela">
-      <thead>
-        <tr>
-          <th>Time</th>
-          <th>Pontos</th>
-          <th>Vitórias</th>
-          <th>Derrotas</th>
-        </tr>
-      </thead>
-      <tbody>
-      </tbody>
+    <table>
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Pontos</th>
+                <th>Vitórias</th>
+                <th>Derrotas</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>3º Ano A</td>
+                <td>9</td>
+                <td>3</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>2º Ano B</td>
+                <td>6</td>
+                <td>2</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>1º Ano C</td>
+                <td>3</td>
+                <td>1</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>3º Ano B</td>
+                <td>0</td>
+                <td>0</td>
+                <td>3</td>
+            </tr>
+        </tbody>
     </table>
 
-    <button class="atualizar-btn" onclick="atualizarTabela()">Atualizar Tabela</button>
-  </section>
-
-</main>
+    <button class="btn-secundario">Atualizar Tabela</button>
+</section>
 
 <footer>
-  <p>© 2026 Interclasses</p>
+    © 2026 Interclasses
 </footer>
 
-<script src="script.js"></script>
 </body>
 </html>
