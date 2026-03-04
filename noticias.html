@@ -1,68 +1,51 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Notícias - Interclasses</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Notícias - Interclasses</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<header class="topbar">
-  <div class="container nav">
-    <div class="logo">INTERCLASSES</div>
+<header>
+    <div class="logo">
+        <a href="index.html">INTERCLASSES</a>
+    </div>
     <nav>
-      <a href="index.html">Início</a>
-      <a href="#">Times</a>
-      <a href="#">Tabela</a>
-      <a href="#">Jogos</a>
+        <a href="index.html">Início</a>
+        <a href="#">Times</a>
+        <a href="#">Tabela</a>
+        <a href="#">Jogos</a>
     </nav>
-  </div>
 </header>
 
-<main class="container">
-
-  <section class="news-page">
+<section class="pagina-noticias">
     <h1>Últimas Notícias</h1>
 
-    <div class="news-grid">
+    <div class="cards">
+        <div class="card destaque">
+            <h3>Rodada decisiva define semifinalistas</h3>
+            <p>A rodada final da fase de grupos trouxe partidas emocionantes e definiu os quatro times classificados para as semifinais do campeonato.</p>
+            <span>Publicado em 10/03/2026</span>
+        </div>
 
-      <article class="news-card destaque">
-        <h2>Rodada decisiva define semifinalistas</h2>
-        <p>
-          A rodada final da fase de grupos trouxe partidas emocionantes
-          e definiu os quatro times classificados para as semifinais do campeonato.
-        </p>
-        <span class="data">Publicado em 10/03/2026</span>
-      </article>
+        <div class="card">
+            <h3>3º Ano A segue invicto</h3>
+            <p>Com três vitórias consecutivas, o time mantém a liderança isolada e chega forte para a próxima fase.</p>
+            <span>Publicado em 09/03/2026</span>
+        </div>
 
-      <article class="news-card">
-        <h2>3º Ano A segue invicto</h2>
-        <p>
-          Com três vitórias consecutivas, o time mantém a liderança isolada
-          e chega forte para a próxima fase.
-        </p>
-        <span class="data">Publicado em 09/03/2026</span>
-      </article>
-
-      <article class="news-card">
-        <h2>Defesa é destaque do campeonato</h2>
-        <p>
-          O 2º Ano B possui a melhor defesa da competição,
-          sofrendo apenas um gol até o momento.
-        </p>
-        <span class="data">Publicado em 08/03/2026</span>
-      </article>
-
+        <div class="card">
+            <h3>Defesa é destaque do campeonato</h3>
+            <p>O 2º Ano B possui a melhor defesa da competição, sofrendo apenas um gol até o momento.</p>
+            <span>Publicado em 08/03/2026</span>
+        </div>
     </div>
-  </section>
-
-</main>
+</section>
 
 <footer>
-  <p>© 2026 Interclasses</p>
+    © 2026 Interclasses
 </footer>
 
-<script src="script.js"></script>
 </body>
 </html>
